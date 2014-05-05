@@ -27,6 +27,10 @@ body {
 	width: 40%;
 }
 
+.jumbotron.sandpaper {
+	background: url(../img/sandpaper.png);
+}
+
 h2 .header-content {
 	color: #0C5D9E;
 }
