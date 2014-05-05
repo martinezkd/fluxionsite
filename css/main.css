@@ -8,6 +8,10 @@ body {
 	background: url(../img/greyzz.png);
 }
 
+.container, .navbar, body {
+	min-width: 1024px;
+}
+
 .jumbotron {
 	background-image: url(../img/business-guy.jpg);
 	background-size: 100% auto;
@@ -25,6 +29,10 @@ body {
 
 h2 .header-content {
 	color: #0C5D9E;
+}
+
+.navbar-brand {
+	padding:0;
 }
 
 
