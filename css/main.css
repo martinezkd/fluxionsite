@@ -4,12 +4,16 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+	background: url(../img/greyzz.png);
+}
+
 .jumbotron {
 	background-image: url(../img/business-guy.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	position: relative;
-	height: 350px;
+	min-height: 350px;
 }
 
 .header-content {
@@ -19,7 +23,9 @@
 	width: 40%;
 }
 
-.navbar
+h2 .header-content {
+	color: #0C5D9E;
+}
 
 
 
