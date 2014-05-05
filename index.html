@@ -38,25 +38,43 @@
             <img src="img/fluxion-logo.png" alt="Fluxion Technologies" />
           </a>
         </div>
-        <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+              <input type="text" class="form-control" placeholder="Search">
             </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <button type="submit" class="btn btn-default">Submit</button>
           </form>
-        </div><!--/.navbar-collapse -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">BioSciences Testing</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Consulting</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">IsoFlux</a></li>
+                <li><a href="#">BioFlux</a></li>
+                <li><a href="#">IonFlux</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
       </div>
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="header-content">
-        <h2>World class technologies</h2>
-        <p>Sed fermentum, massa a cursus consectetur, nisl mauris tempus lectus, sed porttitor eros eros ullamcorper tortor. Vivamus et enim at odio feugiat gravida. Proin hendrerit condimentum nisi. Suspendisse leo ante, malesuada id lacinia sit amet, adipiscing vel ante.</p>
+        <h2>World class Biosciences Research</h2>
+        <p>By characterizing molecular and cellular mechanisms in physiologically relevant micro-environments, Fluxion helps bridge the translational medicine gap by bringing research data closer to patients.</p>
         <p><a class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#myModal">Watch Video &raquo;</a></p>
       </div>
     </div>
@@ -65,18 +83,20 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <h2>IsoFlux</h2>
+          <p>The IsoFlux System utilizes a proprietary microfluidic technology and immunomagnetic beads to isolate rare cells from biological samples. Typical applications include analysis of circulating tumor cells (CTCs), cancer stem cells, stem cells, and immune cells.</p>
+          <p>Once these rare cells are enriched using IsoFlux, they are immediately ready for downstream analysis using next-generation sequencing (NGS), qPCR, FISH, IHC, and related analytical approaches.</p>
+          <p>This video shows the basic principles of operation for the system.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <h2>BioFlux</h2>
+          <p>BioFlux enables a wide variety of cell-based assays in the fields of immunology, vascular biology, microbiology, cancer research, stem cells, and more. Many of these applications benefit from the ability to create a physiologically-relevant shear flow profile, such as platelet adhesion, cell adhesion, rolling velocity, transmigration and stem cell differentiation. Other applications can benefit from the ability to introduce compounds in a time-resolved and well-controlled manner, such as wound healing, pharmacology and neurite-outgrowth assays.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>IonFlux</h2>
+          <p>The IonFlux platform uses the proprietary Well Plate Microfluidic technology to automate the patch clamp method in a convenient and high throughput well plate format that comes in two scalable configurations to accommodate a broad range of applications, including both voltage- and ligand-gated ion channels. The IonFlux HT is suited for high throughput screening in drug discovery and development. This version is capable of producing up to 10,000 data points per day.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div>
@@ -84,7 +104,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; Fluxion Biosciences 2014</p>
       </footer>
     </div> <!-- /container -->
 
@@ -100,7 +120,6 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
