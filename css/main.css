@@ -4,14 +4,22 @@
    Author's custom styles
    ========================================================================== */
 
+.jumbotron {
+	background-image: url(../img/business-guy.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 350px;
+}
 
+.header-content {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	width: 40%;
+}
 
-
-
-
-
-
-
+.navbar
 
 
 
